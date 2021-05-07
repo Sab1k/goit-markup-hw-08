@@ -1,0 +1,74 @@
+/* цвет основного текста #212121; */
+/* вторичный цвет текста #757575; */
+/* цвет лого #2196F3; #FFFFFF; */
+/* цвет контактов в футере rgba(255, 255, 255, 0.6);  */
+/* акцент #2196F3; */
+/* вторичный цвет фона #F5F4FA; */
+/* цвет футера #2F303A;*/
+
+/* Главная Страница "Студия"*/
+
+/* Переменные */
+@import './utils/variables';
+@import './base/common';
+@import './base/container';
+
+@import './components/button';
+@import './components/header';
+@import './components/logo';
+@import './components/sitenav';
+@import './components/contacts';
+@import './components/modal';
+@import './components/form';
+@import './components/social-icons';
+@import './components/form-footer';
+@import './layouts/section';
+@import './layouts/hero';
+@import './layouts/advantages';
+@import './layouts/work';
+@import './layouts/team';
+@import './layouts/clients';
+@import './layouts/footer';
+@import './layouts/join';
+@import './layouts/featurelist';
+
+/* Site nav */
+
+/* Site contacts */
+
+/* Hero */
+
+/* Section */
+
+/* .section-title {
+  margin-bottom: 50px;
+  color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+} */
+
+/* Преимущества компании */
+
+/* Страница портфолио (сетка) */
+/* Features */
+
+/* Чем занимается компания  */
+
+/* Команда компании */
+
+/* Постоянные клиенты */
+
+/* Button */
+
+/* Футер */
+
+/* Модальное окно */
+
+/* Форма в модальном окне */
+
+/* .form-field input[type='checkbox'] {
+  width: 16px;
+  height: 15px;
+}  */
