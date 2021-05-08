@@ -5,6 +5,7 @@ html {
 *::after,
 *::before {
   box-sizing: inherit;
+  /* outline: 2px solid red; */
 }
 
 body {
@@ -56,4 +57,5 @@ img {
 .link {
   display: flex;
   align-items: center;
+  text-decoration: none;
 }

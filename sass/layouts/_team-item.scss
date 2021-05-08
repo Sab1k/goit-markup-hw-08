@@ -1,0 +1,49 @@
+.team__item {
+  /* text-align: center; */
+
+  @media screen and (min-width: 1200px) {
+    --cards-set-gap: 4;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767.98px) {
+  .team__list {
+    justify-content: center;
+  }
+  .team__item {
+    max-width: 450px;
+  }
+  --cards-set-gap: 1;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199.98px) {
+  .team__list {
+    justify-content: center;
+  }
+  .team__item {
+    max-width: 354px;
+  }
+  --cards-set-gap: 2;
+}
+
+/* @media screen and (min-width: 768px) and (max-width: 1199px) {
+  .team__item:nth-last-child(2n) {
+    margin-right: 0;
+  }
+  .team__item:nth-last-child(-n + 2) {
+    margin-bottom: 0;
+  }
+}
+.team__item:not(:last-child) {
+  margin-right: 30px;
+}
+
+@media screen and (min-width: 1200px) {
+  .team__item:nth-child(4n) {
+    margin-right: 0;
+  }
+  .team__item:nth-last-child(-n + 4) {
+    margin-bottom: 0;
+  }
+}
+ */
